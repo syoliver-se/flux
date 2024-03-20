@@ -4,9 +4,9 @@ import (
 	"math"
 
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/internal/mutable"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/internal/mutable"
 	"gonum.org/v1/gonum/optimize"
 )
 

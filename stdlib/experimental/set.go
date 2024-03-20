@@ -3,11 +3,11 @@ package experimental
 import (
 	"fmt"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/values"
 )
 
 const SetKind = "setExperimental"

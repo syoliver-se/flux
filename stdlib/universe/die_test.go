@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestDie(t *testing.T) {

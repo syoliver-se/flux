@@ -5,7 +5,7 @@ import (
 	"mime"
 	"net/http"
 
-	"github.com/influxdata/flux"
+	"github.com/syoliver-se/flux"
 )
 
 const DialectType = "csv"

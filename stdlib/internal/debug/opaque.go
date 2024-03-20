@@ -1,8 +1,8 @@
 package debug
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 const OpaqueKind = "internal/debug.opaque"

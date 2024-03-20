@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/internal/spec"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/internal/spec"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 func Benchmark_FromScript(b *testing.B) {

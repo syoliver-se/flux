@@ -6,13 +6,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/parser"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/parser"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestEval(t *testing.T) {

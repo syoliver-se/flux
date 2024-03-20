@@ -9,14 +9,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependencies/url"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependencies/url"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
 	"gonum.org/v1/gonum/floats/scalar"
 )
 

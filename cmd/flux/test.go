@@ -4,17 +4,17 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/cmd/flux/cmd"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/testing"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/lang"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/cmd/flux/cmd"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/testing"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/lang"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 func NewTestExecutor(ctx context.Context) (cmd.TestExecutor, error) {

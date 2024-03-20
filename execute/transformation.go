@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
 )
 
 // Transformation represents functions that stream a set of tables, performs

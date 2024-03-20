@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/internal/operation"
+	"github.com/syoliver-se/flux/internal/operation"
 )
 
 func TestSpec_Walk(t *testing.T) {

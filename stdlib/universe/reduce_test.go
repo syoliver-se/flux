@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 func TestReduce_Process(t *testing.T) {

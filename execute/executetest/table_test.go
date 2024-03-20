@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/memory"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/memory"
 )
 
 func TestTable(t *testing.T) {

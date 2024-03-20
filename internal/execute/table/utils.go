@@ -1,9 +1,9 @@
 package table
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/execute/table"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/execute/table"
 )
 
 func Values(cr flux.ColReader, j int) array.Array {

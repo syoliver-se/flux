@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/filesystem"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/parser"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/filesystem"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/parser"
 )
 
 // Transform will transform an *ast.Package into a set of *ast.Package values

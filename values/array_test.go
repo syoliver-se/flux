@@ -3,8 +3,8 @@ package values_test
 import (
 	"testing"
 
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestArrayEqual(t *testing.T) {

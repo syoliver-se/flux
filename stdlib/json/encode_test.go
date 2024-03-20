@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 func TestJSONEncode(t *testing.T) {

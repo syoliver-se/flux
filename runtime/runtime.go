@@ -3,13 +3,13 @@ package runtime
 import (
 	"context"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/libflux/go/libflux"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/libflux/go/libflux"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 // Default contains the preregistered packages and builtin values

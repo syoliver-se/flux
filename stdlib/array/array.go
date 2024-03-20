@@ -3,11 +3,11 @@ package array
 import (
 	"context"
 
-	"github.com/influxdata/flux/compiler"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/compiler"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 var SpecialFns map[string]values.Function

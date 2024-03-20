@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
+	"github.com/syoliver-se/flux"
 )
 
 // represents unsupported type

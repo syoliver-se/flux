@@ -8,14 +8,14 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	ftesting "github.com/influxdata/flux/dependencies/testing"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/lang"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux"
+	ftesting "github.com/syoliver-se/flux/dependencies/testing"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/lang"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 func runQuery(ctx context.Context, script string) (flux.Query, func(), error) {

@@ -6,12 +6,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/semantic/semantictest"
-	"github.com/influxdata/flux/stdlib/kafka"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/semantic/semantictest"
+	"github.com/syoliver-se/flux/stdlib/kafka"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 // CmpOptions are the options needed to compare plan.ProcedureSpecs inside plan.Spec.

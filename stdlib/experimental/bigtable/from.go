@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/bigtable"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/bigtable"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
 	"google.golang.org/api/option"
 )
 

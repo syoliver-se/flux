@@ -3,7 +3,7 @@ package mock
 import (
 	"context"
 
-	"github.com/influxdata/flux/dependencies/influxdb"
+	"github.com/syoliver-se/flux/dependencies/influxdb"
 )
 
 type InfluxDBProvider struct {

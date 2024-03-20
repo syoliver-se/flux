@@ -6,8 +6,8 @@ import (
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 	"github.com/google/go-cmp/cmp"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/querytest"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/querytest"
 )
 
 func TestPublishMQTT_NewQuery(t *testing.T) {

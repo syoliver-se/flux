@@ -1,11 +1,11 @@
 package function
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 // Arguments provides access to the arguments of a function call.

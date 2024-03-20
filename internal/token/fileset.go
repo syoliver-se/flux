@@ -1,7 +1,7 @@
 package token
 
 import (
-	"github.com/influxdata/flux/ast"
+	"github.com/syoliver-se/flux/ast"
 )
 
 type FileSet struct {

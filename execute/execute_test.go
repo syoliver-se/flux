@@ -2,7 +2,7 @@ package execute
 
 import (
 	"context"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux/plan"
 	"go.uber.org/zap"
 )
 

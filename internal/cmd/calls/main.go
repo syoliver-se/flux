@@ -30,8 +30,8 @@ import (
 )
 
 func inFlux(path string) bool {
-	return path == "github.com/influxdata/flux" ||
-		strings.HasPrefix(path, "github.com/influxdata/flux/")
+	return path == "github.com/syoliver-se/flux" ||
+		strings.HasPrefix(path, "github.com/syoliver-se/flux/")
 }
 
 func shorten(targ string) string {

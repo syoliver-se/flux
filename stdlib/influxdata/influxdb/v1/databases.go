@@ -1,14 +1,14 @@
 package v1
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
 )
 
 const (

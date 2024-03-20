@@ -5,12 +5,12 @@ import (
 	nethttp "net/http"
 	"testing"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/http"
-	fluxurl "github.com/influxdata/flux/dependencies/url"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/internal/errors"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/http"
+	fluxurl "github.com/syoliver-se/flux/dependencies/url"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/internal/errors"
 )
 
 type mockClient struct{}

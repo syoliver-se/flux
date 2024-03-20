@@ -5,14 +5,14 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/filesystem"
-	"github.com/influxdata/flux/dependencies/influxdb"
-	"github.com/influxdata/flux/dependencies/mqtt"
-	"github.com/influxdata/flux/dependencies/url"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/mock"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/filesystem"
+	"github.com/syoliver-se/flux/dependencies/influxdb"
+	"github.com/syoliver-se/flux/dependencies/mqtt"
+	"github.com/syoliver-se/flux/dependencies/url"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/mock"
 )
 
 type RoundTripFunc func(req *http.Request) *http.Response

@@ -2,8 +2,8 @@ package execute
 
 import (
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute/table"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute/table"
 )
 
 // NarrowStateTransformation is the same as a NarrowTransformation

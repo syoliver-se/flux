@@ -5,14 +5,14 @@ import (
 
 	"github.com/apache/arrow/go/v7/arrow/memory"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/execute/table"
-	"github.com/influxdata/flux/execute/table/static"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/mock"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/execute/table"
+	"github.com/syoliver-se/flux/execute/table/static"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/mock"
 	"github.com/stretchr/testify/assert"
 )
 

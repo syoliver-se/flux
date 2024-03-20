@@ -3,7 +3,7 @@ package plan
 import (
 	"context"
 
-	"github.com/influxdata/flux/internal/operation"
+	"github.com/syoliver-se/flux/internal/operation"
 )
 
 // PlannerBuilder provides clients with an easy way to create planners.

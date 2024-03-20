@@ -2,9 +2,9 @@ package mock
 
 import (
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/table"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/table"
 )
 
 type Transformation struct {

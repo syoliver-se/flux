@@ -1,8 +1,8 @@
 package arrow
 
 import (
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/memory"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/memory"
 )
 
 func NewBool(vs []bool, alloc memory.Allocator) *array.Boolean {

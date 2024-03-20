@@ -7,17 +7,17 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependencies/url"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static" // We need to init flux for the tests to work.
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	fkafka "github.com/influxdata/flux/stdlib/kafka"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependencies/url"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static" // We need to init flux for the tests to work.
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	fkafka "github.com/syoliver-se/flux/stdlib/kafka"
 	"github.com/segmentio/kafka-go"
 )
 

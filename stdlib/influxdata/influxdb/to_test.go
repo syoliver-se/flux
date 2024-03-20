@@ -10,15 +10,15 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/flux"
-	influxdb2 "github.com/influxdata/flux/dependencies/influxdb"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/mock"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux"
+	influxdb2 "github.com/syoliver-se/flux/dependencies/influxdb"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/mock"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 type pointsWriter struct {

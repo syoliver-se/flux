@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/stdlib/interpolate"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/stdlib/interpolate"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestLinearInterpolate(t *testing.T) {

@@ -13,11 +13,11 @@ import (
 	"unsafe"
 
 	flatbuffers "github.com/google/flatbuffers/go"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/internal/fbsemantic"
-	"github.com/influxdata/flux/internal/feature"
-	"github.com/influxdata/flux/semantic"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/internal/fbsemantic"
+	"github.com/syoliver-se/flux/internal/feature"
+	"github.com/syoliver-se/flux/semantic"
 )
 
 func SemanticPackages() (map[string]*semantic.Package, error) {

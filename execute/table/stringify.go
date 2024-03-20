@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 // Stringify will read a table and turn it into a human-readable string.

@@ -8,17 +8,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/interval"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/plan/plantest"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/interval"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/plan/plantest"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestWindow_NewQuery(t *testing.T) {

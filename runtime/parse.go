@@ -3,9 +3,9 @@ package runtime
 import (
 	"context"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/libflux/go/libflux"
-	"github.com/influxdata/flux/parser"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/libflux/go/libflux"
+	"github.com/syoliver-se/flux/parser"
 )
 
 // Parse parses a Flux script and produces an ast.Package.

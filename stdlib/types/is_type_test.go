@@ -5,11 +5,11 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/stdlib/types"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/stdlib/types"
+	"github.com/syoliver-se/flux/values"
 )
 
 type isTypeCase struct {

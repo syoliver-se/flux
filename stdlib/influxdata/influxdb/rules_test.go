@@ -5,17 +5,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	influxdeps "github.com/influxdata/flux/dependencies/influxdb"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/plan/plantest"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	influxdeps "github.com/syoliver-se/flux/dependencies/influxdb"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/plan/plantest"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 func TestRuleCreatedNodeUniqueness(t *testing.T) {

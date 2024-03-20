@@ -7,10 +7,10 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/values"
 )
 
-const modulePath = "github.com/influxdata/flux"
+const modulePath = "github.com/syoliver-se/flux"
 
 // readBuildInfo is used for reading the build information
 // from the binary. This exists to overwrite the value for unit

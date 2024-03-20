@@ -1,9 +1,9 @@
 package semantic
 
 import (
-	codes "github.com/influxdata/flux/codes"
-	errors "github.com/influxdata/flux/internal/errors"
-	fbsemantic "github.com/influxdata/flux/internal/fbsemantic"
+	codes "github.com/syoliver-se/flux/codes"
+	errors "github.com/syoliver-se/flux/internal/errors"
+	fbsemantic "github.com/syoliver-se/flux/internal/fbsemantic"
 )
 
 func (rcv *ArrayExpression) FromBuf(fb *fbsemantic.ArrayExpression) error {

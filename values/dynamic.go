@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/influxdata/flux/semantic"
+	"github.com/syoliver-se/flux/semantic"
 )
 
 type Dynamic interface {

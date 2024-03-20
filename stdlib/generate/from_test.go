@@ -4,15 +4,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/stdlib/generate"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/stdlib/generate"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 func TestFrom_NewQuery(t *testing.T) {

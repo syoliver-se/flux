@@ -3,7 +3,7 @@ package execute
 import (
 	"sync"
 
-	"github.com/influxdata/flux"
+	"github.com/syoliver-se/flux"
 )
 
 // result implements both the Transformation and Result interfaces,

@@ -1,6 +1,6 @@
 package table
 
-import "github.com/influxdata/flux"
+import "github.com/syoliver-se/flux"
 
 type Iterator []flux.Table
 

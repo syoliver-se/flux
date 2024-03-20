@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
 )
 
 func TestSymbol(t *testing.T) {

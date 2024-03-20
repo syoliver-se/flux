@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/values"
 )
 
 var (

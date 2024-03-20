@@ -10,7 +10,7 @@ import (
 	"fmt"
 
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux/array"
+	"github.com/syoliver-se/flux/array"
 )
 
 // CopyTo will copy the contents of the array into a new array builder.

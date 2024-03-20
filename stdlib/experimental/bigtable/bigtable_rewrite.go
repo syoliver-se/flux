@@ -3,11 +3,11 @@ package bigtable
 import (
 	"time"
 
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/dependencies/bigtable"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/dependencies/bigtable"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/stdlib/universe"
 )
 
 func AddFilterToNode(queryNode plan.Node, filterNode plan.Node) (plan.Node, bool) {

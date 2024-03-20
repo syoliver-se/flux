@@ -3,11 +3,11 @@ package bigtable
 import (
 	"fmt"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/bigtable"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/bigtable"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 	"golang.org/x/net/context"
 )
 

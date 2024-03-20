@@ -1,8 +1,8 @@
 package sql
 
 import (
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
 )
 
 // ErrorDriverDisabled indicates a given database driver is disabled.

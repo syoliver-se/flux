@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/plan/plantest"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/stdlib/join"
-	"github.com/influxdata/flux/stdlib/universe"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/plan/plantest"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/stdlib/join"
+	"github.com/syoliver-se/flux/stdlib/universe"
 )
 
 func TestSortMergeJoinPredicateRule(t *testing.T) {

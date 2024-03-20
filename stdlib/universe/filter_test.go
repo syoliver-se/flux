@@ -5,25 +5,25 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/gen"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/lang"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/plan/plantest"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/gen"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/lang"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/plan/plantest"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 func TestFilter_NewQuery(t *testing.T) {
@@ -562,7 +562,7 @@ func TestFilterRules(t *testing.T) {
 			//
 			// However the planner cannot handle this situation where
 			// a node is removed rom the plan yet.
-			// https://github.com/influxdata/flux/issues/5044
+			// https://github.com/syoliver-se/flux/issues/5044
 			Rules: []plan.Rule{universe.RemoveTrivialFilterRule{}},
 			Before: &plantest.PlanSpec{
 				Nodes: []plan.Node{

@@ -7,15 +7,15 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	fluxfeature "github.com/influxdata/flux/internal/feature"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	fluxfeature "github.com/syoliver-se/flux/internal/feature"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 type Func interface {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/testing"
-	"github.com/influxdata/flux/memory"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/testing"
+	"github.com/syoliver-se/flux/memory"
 	"github.com/opentracing/opentracing-go"
 )
 

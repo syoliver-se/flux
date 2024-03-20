@@ -6,18 +6,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static" // We need to init flux for the tests to work.
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/mock"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/stdlib/csv"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static" // We need to init flux for the tests to work.
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/mock"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/stdlib/csv"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestFromCSV_ReturnSingleResult(t *testing.T) {

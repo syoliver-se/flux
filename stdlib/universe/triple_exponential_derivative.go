@@ -3,17 +3,17 @@ package universe
 import (
 	"math"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/internal/moving_average"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/internal/moving_average"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/values"
 )
 
 const TripleExponentialDerivativeKind = "tripleExponentialDerivative"

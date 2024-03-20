@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/libflux/go/libflux"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/libflux/go/libflux"
 )
 
 func TestParse(t *testing.T) {

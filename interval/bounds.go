@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/influxdata/flux/internal/zoneinfo"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/internal/zoneinfo"
+	"github.com/syoliver-se/flux/values"
 )
 
 const (

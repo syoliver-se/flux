@@ -8,9 +8,9 @@ import (
 
 	flatbuffers "github.com/google/flatbuffers/go"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/internal/fbsemantic"
-	"github.com/influxdata/flux/semantic"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/internal/fbsemantic"
+	"github.com/syoliver-se/flux/semantic"
 )
 
 var cmpOpts = []cmp.Option{

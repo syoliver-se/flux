@@ -5,10 +5,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/values"
 )
 
 // ResultDecoder decodes raw input strings from a reader into a flux.Result.

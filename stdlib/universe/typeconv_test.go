@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/apache/arrow/go/v7/arrow/array"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestTypeconv_String(t *testing.T) {

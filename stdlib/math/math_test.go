@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/semantic"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/semantic"
 
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestMathFunctionsX(t *testing.T) {

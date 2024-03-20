@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/plan"
 )
 
 // Spec is a set of nodes and edges of a logical query plan

@@ -10,9 +10,9 @@ import (
 	"fmt"
 
 	arrowmem "github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/values"
 )
 
 func (t *fillTransformation) fillColumn(typ flux.ColType, arr array.Array, fillValue *interface{}, mem arrowmem.Allocator) array.Array {

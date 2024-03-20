@@ -1,8 +1,8 @@
 package bitwise
 
 import (
-	"github.com/influxdata/flux/internal/function"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/internal/function"
+	"github.com/syoliver-se/flux/values"
 )
 
 func uand(args *function.Arguments) (values.Value, error) {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 type Querier struct{}

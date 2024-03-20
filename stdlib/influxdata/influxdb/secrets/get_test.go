@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	"github.com/influxdata/flux/dependencies/secret"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/mock"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb/secrets"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	"github.com/syoliver-se/flux/dependencies/secret"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/mock"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb/secrets"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestGet(t *testing.T) {

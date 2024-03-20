@@ -8,7 +8,7 @@ package arrowutil
 
 import (
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux/array"
+	"github.com/syoliver-se/flux/array"
 )
 
 func NewIntBuilder(mem memory.Allocator) *array.IntBuilder {

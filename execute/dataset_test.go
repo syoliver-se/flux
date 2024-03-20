@@ -5,14 +5,14 @@ import (
 
 	arrowmem "github.com/apache/arrow/go/v7/arrow/memory"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/execute/table"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/mock"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/execute/table"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/mock"
 )
 
 func TestTransportDataset_Process(t *testing.T) {

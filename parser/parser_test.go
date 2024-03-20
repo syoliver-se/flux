@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/ast/asttest"
-	"github.com/influxdata/flux/internal/token"
-	"github.com/influxdata/flux/parser"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/ast/asttest"
+	"github.com/syoliver-se/flux/internal/token"
+	"github.com/syoliver-se/flux/parser"
 )
 
 var parserType = "parser-type=rust"

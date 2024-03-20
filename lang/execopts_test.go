@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/parser"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/parser"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestExecutionOptions(t *testing.T) {

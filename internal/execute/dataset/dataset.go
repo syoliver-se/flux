@@ -1,10 +1,10 @@
 package dataset
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/table"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/table"
+	"github.com/syoliver-se/flux/plan"
 )
 
 type dataset struct {

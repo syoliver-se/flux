@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestObjectEqual(t *testing.T) {

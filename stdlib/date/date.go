@@ -5,13 +5,13 @@ import (
 	"math"
 	"time"
 
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/date"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/interval"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/date"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/interval"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/values"
 )
 
 var SpecialFns map[string]values.Function

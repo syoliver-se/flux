@@ -4,13 +4,13 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb/internal/testutil"
-	v1 "github.com/influxdata/flux/stdlib/influxdata/influxdb/v1"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb/internal/testutil"
+	v1 "github.com/syoliver-se/flux/stdlib/influxdata/influxdb/v1"
 )
 
 func TestDatabases_NewQuery(t *testing.T) {

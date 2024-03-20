@@ -7,14 +7,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/stdlib/experimental"
-	"github.com/influxdata/flux/values"
-	"github.com/influxdata/flux/values/valuestest"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/stdlib/experimental"
+	"github.com/syoliver-se/flux/values"
+	"github.com/syoliver-se/flux/values/valuestest"
 )
 
 func TestJoin(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/internal/function"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/stdlib/dict"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/internal/function"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/stdlib/dict"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestFromList(t *testing.T) {

@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/ast/asttest"
-	"github.com/influxdata/flux/ast/astutil"
-	"github.com/influxdata/flux/ast/testcase"
-	"github.com/influxdata/flux/dependencies/filesystem"
-	"github.com/influxdata/flux/parser"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/ast/asttest"
+	"github.com/syoliver-se/flux/ast/astutil"
+	"github.com/syoliver-se/flux/ast/testcase"
+	"github.com/syoliver-se/flux/dependencies/filesystem"
+	"github.com/syoliver-se/flux/parser"
 )
 
 func TestTransform(t *testing.T) {

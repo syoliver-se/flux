@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/plan/plantest"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/plan/plantest"
 )
 
 func TestPlanSpec_BottomUpWalk(t *testing.T) {

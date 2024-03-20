@@ -12,13 +12,13 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	fhttp "github.com/influxdata/flux/dependencies/http"
-	"github.com/influxdata/flux/dependencies/url"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	fhttp "github.com/syoliver-se/flux/dependencies/http"
+	"github.com/syoliver-se/flux/dependencies/url"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestDo(t *testing.T) {
@@ -164,7 +164,7 @@ func TestDo_Timeout(t *testing.T) {
 import "http/requests"
 
 // syntax doesn't allow for {http.DefaultConfig with ...} so we rebind it
-// See https://github.com/influxdata/flux/issues/3655
+// See https://github.com/syoliver-se/flux/issues/3655
 c = requests.defaultConfig
 config = {c with timeout: 10ms}
 requests.do(method: "GET", url:"%s/path/a/b/c", config: config)
@@ -192,7 +192,7 @@ func TestDo_VerifyTLS_Pass(t *testing.T) {
 import "http/requests"
 
 // syntax doesn't allow for {http.DefaultConfig with ...} so we rebind it
-// See https://github.com/influxdata/flux/issues/3655
+// See https://github.com/syoliver-se/flux/issues/3655
 c = requests.defaultConfig
 config = {c with insecureSkipVerify: true}
 requests.do(method: "GET", url:"%s/path/a/b/c", headers: ["x":"a","y":"b","z":"c"], config: config)

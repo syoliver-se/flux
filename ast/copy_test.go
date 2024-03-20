@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/ast/asttest"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/ast/asttest"
 )
 
 func TestCopy(t *testing.T) {

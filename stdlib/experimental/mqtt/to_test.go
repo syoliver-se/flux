@@ -8,17 +8,17 @@ import (
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/lang"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/stdlib/experimental/mqtt"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/lang"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/stdlib/experimental/mqtt"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
 )
 
 func TestToMQTT_NewQuery(t *testing.T) {

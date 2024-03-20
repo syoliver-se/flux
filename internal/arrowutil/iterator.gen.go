@@ -6,7 +6,7 @@
 
 package arrowutil
 
-import "github.com/influxdata/flux/array"
+import "github.com/syoliver-se/flux/array"
 
 type IntIterator struct {
 	Values []*array.Int

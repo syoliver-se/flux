@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/interval"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/interval"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestNewWindow(t *testing.T) {

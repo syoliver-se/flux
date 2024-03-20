@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/stdlib/universe"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/stdlib/universe"
 )
 
 func TestMovingAverage_Process(t *testing.T) {

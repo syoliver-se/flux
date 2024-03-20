@@ -13,10 +13,10 @@ import (
 	neturl "net/url"
 	"strings"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
 )
 
 // mssqlConfig is copied from mssql.go. This copy will go away when the NTLM check is added.

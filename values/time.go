@@ -6,10 +6,10 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/internal/parser"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/internal/parser"
 )
 
 type Time int64

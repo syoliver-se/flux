@@ -8,13 +8,13 @@ import (
 
 	arrow "github.com/apache/arrow/go/v7/arrow/memory"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/compiler"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/pkg/feature"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/compiler"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/pkg/feature"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 func vectorizedObjectFromMap(mp map[string]interface{}, mem memory.Allocator) values.Object {

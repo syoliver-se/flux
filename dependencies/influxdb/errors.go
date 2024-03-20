@@ -1,9 +1,9 @@
 package influxdb
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
 	"github.com/influxdata/influxdb-client-go/v2/api/http"
 )
 

@@ -4,11 +4,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/parser"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/parser"
+	"github.com/syoliver-se/flux/values"
 )
 
 // RegisterPackageValue adds a value for an identifier in a builtin package

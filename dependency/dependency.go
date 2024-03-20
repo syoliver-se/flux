@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
 )
 
 // Interface is an interface that must be implemented by every injectable dependency.

@@ -6,16 +6,16 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 const JoinKind = "join"
@@ -197,7 +197,7 @@ func createMergeJoinTransformation(id execute.DatasetID, mode execute.Accumulati
 		return nil, nil, errors.New(codes.Unimplemented, "joins currently must only have two parents")
 	}
 
-	// In <https://github.com/influxdata/flux/issues/4692>, it was found that in
+	// In <https://github.com/syoliver-se/flux/issues/4692>, it was found that in
 	// certain cases `s.TableNames` could grow beyond the size of the parents
 	// _incorrectly_.
 	// This would lead to a panic in the for/range to follow.
@@ -728,7 +728,7 @@ func (c *MergeJoinCache) insertIntoBuffer(id execute.DatasetID, tbl flux.Table) 
 			if k.IsNull(j) {
 				// Discard the table and return.  Note: we need to iterate over the
 				// table at least once:
-				// https://github.com/influxdata/flux/issues/643
+				// https://github.com/syoliver-se/flux/issues/643
 				return tbl.Do(func(flux.ColReader) error {
 					return nil
 				})

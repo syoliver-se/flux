@@ -1,10 +1,10 @@
 package interval
 
 import (
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/internal/zoneinfo"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/internal/zoneinfo"
+	"github.com/syoliver-se/flux/values"
 )
 
 const epoch = values.Time(0)
@@ -19,7 +19,7 @@ func init() {
 }
 
 // TODO(nathanielc): Make the epoch a parameter to the window
-// See https://github.com/influxdata/flux/issues/2093
+// See https://github.com/syoliver-se/flux/issues/2093
 //
 // Window is a description of an infinite set of boundaries in time.
 //

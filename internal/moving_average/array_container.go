@@ -1,9 +1,9 @@
 package moving_average
 
 import (
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/values"
 )
 
 type ArrayContainer struct {

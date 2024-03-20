@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/values"
 )
 
 func Test_String(t *testing.T) {

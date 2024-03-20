@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/influxdata/flux/repl"
+	"github.com/syoliver-se/flux/repl"
 )
 
 func replE(ctx context.Context, opts ...repl.Option) error {

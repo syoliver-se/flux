@@ -9,17 +9,17 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/mock"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/querytest"
-	"github.com/influxdata/flux/stdlib/socket"
-	"github.com/influxdata/flux/stdlib/universe"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/mock"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/querytest"
+	"github.com/syoliver-se/flux/stdlib/socket"
+	"github.com/syoliver-se/flux/stdlib/universe"
 
-	_ "github.com/influxdata/flux/fluxinit/static" // We need to init flux for the tests to work.
+	_ "github.com/syoliver-se/flux/fluxinit/static" // We need to init flux for the tests to work.
 )
 
 func TestFromSocket_NewQuery(t *testing.T) {

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdata/flux/cmd/flux/cmd"
-	"github.com/influxdata/flux/fluxinit"
+	"github.com/syoliver-se/flux/cmd/flux/cmd"
+	"github.com/syoliver-se/flux/fluxinit"
 )
 
 type Summary struct {

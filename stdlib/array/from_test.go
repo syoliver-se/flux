@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/runtime"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 func TestArrayFrom_ReceiveTableObjectIsError(t *testing.T) {

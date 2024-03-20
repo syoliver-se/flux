@@ -6,9 +6,9 @@ import (
 
 	bigquery "github.com/bonitoo-io/go-sql-bigquery"
 	"github.com/go-sql-driver/mysql"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/dependencies/url"
-	"github.com/influxdata/flux/internal/errors"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/dependencies/url"
+	"github.com/syoliver-se/flux/internal/errors"
 )
 
 // helper function to validate the data source url (postgres, sqlmock) / dsn (mysql, snowflake) using the URLValidator.

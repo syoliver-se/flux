@@ -1,8 +1,8 @@
 package table
 
 import (
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute/table"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute/table"
 )
 
 // Sort will read a TableIterator and produce another TableIterator

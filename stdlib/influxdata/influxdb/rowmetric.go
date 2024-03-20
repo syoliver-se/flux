@@ -3,7 +3,7 @@ package influxdb
 import (
 	"time"
 
-	"github.com/influxdata/flux/dependencies/influxdb"
+	"github.com/syoliver-se/flux/dependencies/influxdb"
 )
 
 // RowMetric is a Metric

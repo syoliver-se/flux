@@ -4,10 +4,10 @@ import (
 	"math"
 	"testing"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	"github.com/influxdata/flux/stdlib/internal/promql"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	"github.com/syoliver-se/flux/stdlib/internal/promql"
 	"github.com/pkg/errors"
 )
 

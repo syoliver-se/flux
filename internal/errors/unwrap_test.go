@@ -7,9 +7,9 @@ import (
 	stderrors "errors"
 	"testing"
 
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/memory"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/memory"
 )
 
 func TestUnwrap(t *testing.T) {

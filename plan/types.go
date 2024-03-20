@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/internal/operation"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/interval"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/internal/operation"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/interval"
 )
 
 type Planner interface {

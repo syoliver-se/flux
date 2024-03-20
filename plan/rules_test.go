@@ -6,17 +6,17 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/dependencies/dependenciestest"
-	dtesting "github.com/influxdata/flux/dependencies/testing"
-	"github.com/influxdata/flux/dependency"
-	"github.com/influxdata/flux/internal/spec"
-	"github.com/influxdata/flux/lang"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/plan/plantest"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/dependencies/dependenciestest"
+	dtesting "github.com/syoliver-se/flux/dependencies/testing"
+	"github.com/syoliver-se/flux/dependency"
+	"github.com/syoliver-se/flux/internal/spec"
+	"github.com/syoliver-se/flux/lang"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/plan/plantest"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb"
+	"github.com/syoliver-se/flux/values"
 )
 
 func init() {

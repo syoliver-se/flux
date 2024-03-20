@@ -9,7 +9,7 @@ package arrowutil
 import (
 	"fmt"
 
-	"github.com/influxdata/flux/array"
+	"github.com/syoliver-se/flux/array"
 )
 
 func IsConstant(arr array.Array) bool {

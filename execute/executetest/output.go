@@ -3,9 +3,9 @@ package executetest
 import (
 	"errors"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/plan"
 )
 
 // ToTestKind represents an side-effect producing kind for testing

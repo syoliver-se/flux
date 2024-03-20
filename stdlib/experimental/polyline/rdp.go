@@ -3,16 +3,16 @@ package polyline
 import (
 	"fmt"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/array"
-	fluxarrow "github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/stdlib/experimental/polyline/rdp"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/array"
+	fluxarrow "github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/stdlib/experimental/polyline/rdp"
 )
 
 const RdpKind = "rdp"

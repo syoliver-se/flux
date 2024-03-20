@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	_ "github.com/influxdata/flux/csv"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/lang"
-	"github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/runtime"
+	"github.com/syoliver-se/flux"
+	_ "github.com/syoliver-se/flux/csv"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/lang"
+	"github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/runtime"
 )
 
 func TestSendAlert(t *testing.T) {

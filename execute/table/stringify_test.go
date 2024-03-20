@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux/execute/table"
-	"github.com/influxdata/flux/execute/table/static"
+	"github.com/syoliver-se/flux/execute/table"
+	"github.com/syoliver-se/flux/execute/table/static"
 )
 
 func TestStringify(t *testing.T) {

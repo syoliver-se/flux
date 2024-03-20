@@ -5,15 +5,15 @@ import (
 	"sync"
 
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute/table"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/internal/feature"
-	fluxmemory "github.com/influxdata/flux/memory"
-	"github.com/influxdata/flux/plan"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute/table"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/internal/feature"
+	fluxmemory "github.com/syoliver-se/flux/memory"
+	"github.com/syoliver-se/flux/plan"
 )
 
 // AggregateTransformation implements a transformation that aggregates

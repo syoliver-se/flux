@@ -8,15 +8,15 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/ast/astutil"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/csv"
-	"github.com/influxdata/flux/dependencies/influxdb"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/memory"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/ast/astutil"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/csv"
+	"github.com/syoliver-se/flux/dependencies/influxdb"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/memory"
 )
 
 type ProcedureSpec interface {

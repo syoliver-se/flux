@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/influxdata/flux/dependencies/bigtable"
+	"github.com/syoliver-se/flux/dependencies/bigtable"
 )
 
 func TestGetNoProvider(t *testing.T) {

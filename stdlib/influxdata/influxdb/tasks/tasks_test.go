@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/stdlib/influxdata/influxdb/tasks"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/stdlib/influxdata/influxdb/tasks"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestLastSuccess(t *testing.T) {

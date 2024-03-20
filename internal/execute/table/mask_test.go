@@ -3,10 +3,10 @@ package table_test
 import (
 	"testing"
 
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/table/static"
-	"github.com/influxdata/flux/internal/execute/table"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/table/static"
+	"github.com/syoliver-se/flux/internal/execute/table"
 )
 
 func TestMask(t *testing.T) {

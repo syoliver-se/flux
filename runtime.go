@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/libflux/go/libflux"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/libflux/go/libflux"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 // Runtime encapsulates the operations supported by the flux runtime.

@@ -3,11 +3,11 @@ package edit_test
 import (
 	"testing"
 
-	"github.com/influxdata/flux/ast"
-	"github.com/influxdata/flux/ast/astutil"
-	"github.com/influxdata/flux/ast/edit"
-	"github.com/influxdata/flux/parser"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/ast"
+	"github.com/syoliver-se/flux/ast/astutil"
+	"github.com/syoliver-se/flux/ast/edit"
+	"github.com/syoliver-se/flux/parser"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestEditor(t *testing.T) {

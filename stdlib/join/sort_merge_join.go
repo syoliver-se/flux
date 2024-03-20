@@ -3,11 +3,11 @@ package join
 import (
 	"context"
 
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/plan"
-	"github.com/influxdata/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/plan"
+	"github.com/syoliver-se/flux/stdlib/universe"
 )
 
 const SortMergeJoinKind = "sortmergejoin"

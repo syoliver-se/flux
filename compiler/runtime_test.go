@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/libflux/go/libflux"
-	"github.com/influxdata/flux/runtime"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/semantic/semantictest"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/libflux/go/libflux"
+	"github.com/syoliver-se/flux/runtime"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/semantic/semantictest"
+	"github.com/syoliver-se/flux/values"
 )
 
 type mockImporter struct {

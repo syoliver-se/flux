@@ -7,9 +7,9 @@ import (
 	"github.com/apache/arrow/go/v7/arrow"
 	"github.com/apache/arrow/go/v7/arrow/array"
 	arrowmem "github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux/codes"
-	"github.com/influxdata/flux/internal/errors"
-	"github.com/influxdata/flux/memory"
+	"github.com/syoliver-se/flux/codes"
+	"github.com/syoliver-se/flux/internal/errors"
+	"github.com/syoliver-se/flux/memory"
 )
 
 //go:generate -command tmpl ../gotool.sh github.com/benbjohnson/tmpl

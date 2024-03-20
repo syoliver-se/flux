@@ -3,10 +3,10 @@ package flux
 import (
 	"io"
 
-	"github.com/influxdata/flux/array"
-	"github.com/influxdata/flux/iocounter"
-	"github.com/influxdata/flux/semantic"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux/array"
+	"github.com/syoliver-se/flux/iocounter"
+	"github.com/syoliver-se/flux/semantic"
+	"github.com/syoliver-se/flux/values"
 )
 
 type Result interface {

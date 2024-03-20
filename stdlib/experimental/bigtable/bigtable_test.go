@@ -8,16 +8,16 @@ import (
 
 	"cloud.google.com/go/bigtable"
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/execute"
-	"github.com/influxdata/flux/execute/executetest"
-	_ "github.com/influxdata/flux/fluxinit/static"
-	"github.com/influxdata/flux/interpreter"
-	"github.com/influxdata/flux/mock"
-	"github.com/influxdata/flux/plan"
-	fbt "github.com/influxdata/flux/stdlib/experimental/bigtable"
-	"github.com/influxdata/flux/stdlib/universe"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/execute"
+	"github.com/syoliver-se/flux/execute/executetest"
+	_ "github.com/syoliver-se/flux/fluxinit/static"
+	"github.com/syoliver-se/flux/interpreter"
+	"github.com/syoliver-se/flux/mock"
+	"github.com/syoliver-se/flux/plan"
+	fbt "github.com/syoliver-se/flux/stdlib/experimental/bigtable"
+	"github.com/syoliver-se/flux/stdlib/universe"
+	"github.com/syoliver-se/flux/values"
 )
 
 func TestBigtableDecode(t *testing.T) {

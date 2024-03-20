@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/apache/arrow/go/v7/arrow/memory"
-	"github.com/influxdata/flux"
-	"github.com/influxdata/flux/arrow"
-	"github.com/influxdata/flux/values"
+	"github.com/syoliver-se/flux"
+	"github.com/syoliver-se/flux/arrow"
+	"github.com/syoliver-se/flux/values"
 	"github.com/stretchr/testify/assert"
 )
 
