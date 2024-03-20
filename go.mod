@@ -1,4 +1,4 @@
-module github.com/influxdata/flux
+module github.com/syoliver-se/flux
 
 go 1.18
 
